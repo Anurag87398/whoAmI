@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Am I?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="heading bigFont">Who Am I?</h1>
+    
+    <!-- div1 => photo -->
+    <div class="img-container">
+        <img class="image" src="./media/question-mark.jpg">
+    </div>
+
+    <!-- div2 => guess-area -->
+    <div class="guess-container">
+        <p class="hint smallFont">Feel Free to take help</p>
+        <input class="user-guess smallFont" placeholder="Who Am I?">
+        <div class="buttons smallFont">
+            <button class="btn guess">Guess</button>
+            <button class="btn get-hint">Get Hint</button>
+            <button class="btn reset">Reset</button>
+        </div>
+        <div class="results smallFont">
+            <span class="score-field smallFont">Score: <span class="score">10</span></span>
+            <span class="highscore-field smallFont">Highscore: <span class="highscore">0</span></span>
+        </div>
+    </div>
+</body>
+</html>
