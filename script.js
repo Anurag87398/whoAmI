@@ -46,59 +46,59 @@ const names= ["uttkarsh",
 // data of each person
 const data= {
     "uttkarsh": {
-        "img": "/media/People/uttkarsh.jpg",
+        "img": "./media/People/uttkarsh.jpg",
         hints: ["I'm a boi", "I'm tall", "I have beard", "I'm into anime", "I'm teachers' favourite", "I break chairs, not beds"]
     },
     "abhinab": {
-        "img": "/media/People/abhinab.jpg",
+        "img": "./media/People/abhinab.jpg",
         hints: ["I'm a boi", "I'm tall", "I'm in IIT", "I have beard", "I'm into anime", "I'm silent most of the time", "I wear specs", "I'm somewhat into football"]
     },
     "prinan": {
-        "img": "/media/People/prinan.jpg",
+        "img": "./media/People/prinan.jpg",
         hints: ["I'm a boi", "I don't keep a beard", "I'm into anime", "I'm a fan of lighting and aesthetics", "Dark theme is the only theme for me", "I'm silent most of the time", "People say I have great taste in music *winks*"]
     },
     "shubhadeep": {
-        "img": "/media/People/shubhadeep.jpg",
+        "img": "./media/People/shubhadeep.jpg",
         hints: ["I'm a boi", "I have beard", "I'm into anime", "I'm a fan of lighting and aesthetics", "I'm into cricket", "I'm a tomper", "People say I'm a great artist"]
     },
     "souvik": {
-        "img": "/media/People/souvik.jpg",
+        "img": "./media/People/souvik.jpg",
         hints: ["I'm a boi", "I have beard", "I wear specs sometimes", "I'm girls' favourite", "I'm into football", "I'm also into chess"]
     },
     "priyasu": {
-        "img": "/media/People/priyasu.jpg",
+        "img": "./media/People/priyasu.jpg",
         hints: ["I'm a boi", "I sometimes have a beard", "I wear specs", "I'm into tech", "I'm employed *winks*"]
     },
     "soham": {
-        "img": "/media/People/soham.jpg",
+        "img": "./media/People/soham.jpg",
         hints: ["I'm a boi", "I'm tall", "I'm in IIT", "I wear specs", "I'm into cricket", "I'm a tomper"]
     },
     "srimonti": {
-        "img": "/media/People/srimonti.jpg",
+        "img": "./media/People/srimonti.jpg",
         hints: ["I'm a gurl", "I'm smol", "People say I'm a great artist", "I'm into music", "I wear specs", "I'm in IIT", "I'm (way) into maths"]
     },
     "swabarna": {
-        "img": "/media/People/swabarna.jpg",
+        "img": "./media/People/swabarna.jpg",
         hints: ["I'm a gurl", "I'm smol", "I'm into music", "I'm one of the queens", "People say I'm a great singer", "I wear specs", "I'm a BTS/Kdrama fan"]
     },
     "shilpi": {
-        "img": "/media/People/shilpi.jpg",
+        "img": "./media/People/shilpi.jpg",
         hints: ["I'm a gurl", "I'm into dancing", "I'm one of the queens", "I used to wear specs", "I'm a BTS/Kdrama fan"]
     },
     "aditi": {
-        "img": "/media/People/aditi.jpeg",
+        "img": "./media/People/aditi.jpeg",
         hints: ["I'm a gurl", "I'm smol", "People say I'm a great artist", "I'm into music", "People say I'm a great singer", "Animals tend to steal my food *cries*", "I'm often used as an armrest *cries again*"]
     },
     "shayambhavi": {
-        "img": "/media/People/shayambhavi.jpg",
+        "img": "./media/People/shayambhavi.jpg",
         hints: ["I'm a gurl", "I maybe into dancing", "I wear specs", "My roomie is also my classmate"]
     },
     "soumili": {
-        "img": "/media/People/soumili.jpg",
+        "img": "./media/People/soumili.jpg",
         hints: ["I'm a gurl", "I'm into music", "I'm one of the queens", "I'm teacher's favourite", "I'm alive, but people often call me dead", "I'm a BTS fan", "I live in bois' hearts", "People often wonder about my nails"]
     },
     "akansha": {
-        "img": "/media/People/akansha.jpg",
+        "img": "./media/People/akansha.jpg",
         hints: ["I'm a gurl", "I'm into dancing", "I wear specs", "I'm one of the queens"]
     }
 };
