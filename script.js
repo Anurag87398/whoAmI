@@ -191,7 +191,8 @@ function init(){
 const checkGuess= ()=>{
     // take in the guess from user and convert to lowercase for checking
     let guess= inputBox.value.toLowerCase();
-
+    guess= guess.trim();
+    
     // remove the input from the screen
     inputBox.value= "";
 
