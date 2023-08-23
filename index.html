@@ -11,12 +11,12 @@
     
     <!-- div1 => photo -->
     <div class="img-container">
-        <img class="image" src="./media/question-mark.jpg">
+        <img class="image hide-image" src="./media/question-mark.jpg">
     </div>
 
     <!-- div2 => guess-area -->
     <div class="guess-container">
-        <p class="hint smallFont">Feel Free to take helpFeel Free to take helpFeel Free to take helpFeel Free to take helpFeel Free to take helpFeel Free to take help</p>
+        <p class="hint smallFont">Feel Free to Guess or Take Hints 👀</p>
         <input type="text" class="user-guess smallFont" placeholder="Who Am I?">
         <div class="results smallFont">
             <span class="score-field smallFont">Score: <span class="score">10</span></span>
@@ -25,20 +25,46 @@
         <div class="buttons smallFont">
             <button class="btn guess">Guess</button>
             <button class="btn get-hint">Get Hint</button>
-            <!-- <button class="btn get-hint" href="#names">Guess List?</button> -->
+            <button class="btn get-help"><a href="#names">Instructions</a></button>
             <button class="btn reset">Reset</button>
         </div>
     </div>
 
     <!-- div3 => list of names -->
     <div id="names" class="name-container">
-        <h2 class="name-heading bigFont">Guess List:</h2>
-        <ul class="name-list smallFont">
-            <p class="name">Name 1</p>
-            <p class="name">Name 1</p>
-            <p class="name">Name 1</p>
-            <p class="name">Name 1</p>
-        </ul>
+        <div class="text-area">
+            <h2 class="name-heading bigFont">How to Play:</h2>
+            <p class="help">
+                Hi! Welcome to the help section of "Who Am I?".</br>
+                The game rules are simple:</br>
+                A random person will be chosen from the list given below.</br>
+                Your goal is to guess which person has been chosen 👀</br>
+                Don't worry, You can take hints along the way!</br>
+                However, keep in mind that with each wrong guess or hint taken,
+                your total score will be reduced ;)</br>
+                You'll get a total of 10 chances to guess the person correctly.</br>
+                Good Luck! 🤝🏻 </br>
+                <span id="possible-heading">Your possible guesses:</span></br>
+            </p>
+            <ul class="name-list smallFont">
+                <p class="name">Abhinab</p>
+                <p class="name">Aditi</p>
+                <p class="name">Akansha</p>
+                <p class="name">Prinan</p>
+                <p class="name">Priyasu</p>
+                <p class="name">Shayambhavi</p>
+                <p class="name">Shilpi</p>
+            </ul>    
+            <ul class="name-list smallFont">
+                <p class="name">Shubhadeep</p>
+                <p class="name">Soham</p>
+                <p class="name">Soumili</p>
+                <p class="name">Souvik</p>
+                <p class="name">Srimonti</p>
+                <p class="name">Swabarna</p>
+                <p class="name">Uttkarsh</p>
+            </ul>
+        </div>
     </div>
 
     <script src="script.js"></script>
