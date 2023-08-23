@@ -249,6 +249,9 @@ body{
     .user-guess{
         width: 80%;
     }
+    .hint{
+        width: 80%;
+    }
 }
 
 @media (min-width: 900px){
